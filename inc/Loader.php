@@ -24,7 +24,13 @@ final class Loader
 
 	public static function start ()
 	{
+		Utility\Requesting::constructor();
 		Utility\RegisterAssets::constructor();
 		Utility\Enqueue::constructor();
+		Utility\Images::constructor();
+		Utility\Sidebars::constructor();
+		Utility\Menus::constructor();
+		Utility\Widgets::constructor();
+		Utility\Tgm::constructor();
 	}
 }

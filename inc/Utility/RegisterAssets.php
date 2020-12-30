@@ -32,6 +32,7 @@ final class RegisterAssets
 		$minify     = self::$minify;
 		$theme_info = self::$theme_info;
 		$style_list = [
+			"{$theme_info->LowerNameDash}-fonts"      => WPEssential_Theme_Pro_T_URI . "assets/css/fonts{$minify}css",
 			"{$theme_info->LowerNameDash}-style"      => WPEssential_Theme_Pro_T_URI . "style{$minify}css",
 			"{$theme_info->LowerNameDash}-color"      => WPEssential_Theme_Pro_T_URI . "assets/css/color{$minify}css",
 			"{$theme_info->LowerNameDash}-responsive" => WPEssential_Theme_Pro_T_URI . "assets/css/responsive{$minify}css",

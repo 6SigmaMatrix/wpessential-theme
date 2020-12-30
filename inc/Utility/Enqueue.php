@@ -22,6 +22,7 @@ final class Enqueue
 			'fancybox',
 			'slick',
 			'slick-theme',
+			"{$theme_info->LowerNameDash}-fonts",
 			"{$theme_info->LowerNameDash}-style",
 			"{$theme_info->LowerNameDash}-color",
 			"{$theme_info->LowerNameDash}-responsive",
