@@ -43,4 +43,13 @@ final class RegisterAssets
 		}
 		return wp_parse_args( $style_list, $list );
 	}
+
+	public static function ver_check ( $ver = WPEssential_Theme_T_VERSION )
+	{
+		if ( defined( 'WP_DEBUG' ) && true === WP_DEBUG || defined( 'WPE_DEBUG' ) && true === WPE_DEBUG ) {
+			return time();
+		} else {
+			return $ver;
+		}
+	}
 }
