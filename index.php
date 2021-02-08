@@ -12,6 +12,8 @@ if ( have_posts() ) {
 
 do_action( 'wpe_after_loop' );
 
+do_action( 'wpe_pagination' );
+
 do_action( 'wpe_default_sidebar' );
 
 get_footer();

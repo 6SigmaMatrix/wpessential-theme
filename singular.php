@@ -6,7 +6,7 @@ do_action( 'wpe_before_loop' );
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
-		do_action( 'wpe_loop' );
+		do_action( 'wpe_detail_loop' );
 	}
 }
 

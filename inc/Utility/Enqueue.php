@@ -19,9 +19,6 @@ final class Enqueue
 	{
 		$theme_info = self::$theme_info;
 		$style_list = [
-			'fancybox',
-			'slick',
-			'slick-theme',
 			"{$theme_info->LowerNameDash}-fonts",
 			"{$theme_info->LowerNameDash}-style",
 			"{$theme_info->LowerNameDash}-color",
