@@ -1,6 +1,6 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialTheme\Utility;
+namespace WPEssential\Theme\WpessentialHeroTheme\Utility;
 
 final class Menus
 {

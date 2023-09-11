@@ -1,12 +1,12 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialTheme\Utility;
+namespace WPEssential\Theme\WpessentialHeroTheme\Utility;
 
 final class Images
 {
 	public static function constructor ()
 	{
-		//add_filter( 'wpe/register/images/size', [ __CLASS__, 'register' ], 1000 );
+		add_filter( 'wpe/register/images/size', [ __CLASS__, 'register' ], 1000 );
 	}
 
 	public static function register ( $list )
@@ -66,4 +66,3 @@ final class Images
 		);
 	}
 }
-

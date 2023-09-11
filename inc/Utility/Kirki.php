@@ -1,6 +1,6 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialThemes\Utility;
+namespace WPEssential\Theme\WpessentialHeroThemes\Utility;
 
 final class Kirki
 {
@@ -38,4 +38,3 @@ final class Kirki
 		];
 	}
 }
-

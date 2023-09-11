@@ -1,6 +1,13 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialThemePro;
+namespace WPEssential\Theme\WpessentialHeroTheme;
+
+use WPEssential\Theme\WpessentialHeroTheme\Assets\AssetsInit;
+use WPEssential\Theme\WpessentialHeroTheme\Utility\Images;
+use WPEssential\Theme\WpessentialHeroTheme\Utility\Menus;
+use WPEssential\Theme\WpessentialHeroTheme\Utility\Requesting;
+use WPEssential\Theme\WpessentialHeroTheme\Utility\Sidebars;
+use WPEssential\Theme\WpessentialHeroTheme\Utility\Widgets;
 
 final class Loader
 {
@@ -14,23 +21,21 @@ final class Loader
 
 	public static function init ()
 	{
-		load_theme_textdomain( 'wpessential-theme', WPEssential_Theme_Pro_T_DIR . 'languages' );
+		load_theme_textdomain( 'wpessential-theme', Wpessential_Hero_Theme_T_DIR . 'languages' );
 	}
 
 	public static function load_files ()
 	{
-		require_once WPEssential_Theme_Pro_T_DIR . 'inc/Functions/general.php';
+		require_once Wpessential_Hero_Theme_T_DIR . 'inc/Functions/general.php';
 	}
 
 	public static function start ()
 	{
-		Utility\Requesting::constructor();
-		Utility\RegisterAssets::constructor();
-		Utility\Enqueue::constructor();
-		Utility\Images::constructor();
-		Utility\Sidebars::constructor();
-		Utility\Menus::constructor();
-		Utility\Widgets::constructor();
-		Utility\Tgm::constructor();
+		AssetsInit::constructor();
+		Requesting::constructor();
+		Images::constructor();
+		Sidebars::constructor();
+		Menus::constructor();
+		Widgets::constructor();
 	}
 }

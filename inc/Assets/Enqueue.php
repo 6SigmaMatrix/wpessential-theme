@@ -1,6 +1,6 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialThemePro\Utility;
+namespace WPEssential\Theme\WpessentialHeroTheme\Assets;
 
 final class Enqueue
 {
@@ -47,7 +47,7 @@ final class Enqueue
 	{
 		return wp_parse_args(
 			[
-				'wpe_theme' => WPEssential_Theme_Pro_T_URI
+				'wpe_theme' => Wpessential_Hero_Theme_T_URI
 			],
 			$localization
 		);

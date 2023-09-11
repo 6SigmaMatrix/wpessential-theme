@@ -1,1 +1,1 @@
-# wpessential-theme
+# WPEssential Hero Theme

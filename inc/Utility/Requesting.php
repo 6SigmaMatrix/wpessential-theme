@@ -1,10 +1,8 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialTheme\Utility;
+namespace WPEssential\Theme\WpessentialHeroTheme\Utility;
 
 final class Requesting
 {
-	public static function constructor ()
-	{
-	}
+	public static function constructor () {}
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialThemes\Utility;
+namespace WPEssential\Theme\WpessentialHeroThemes\Utility;
 
-use WPEssential\Theme\WPEssentialThemes\Builders\Elementor\Utility\Elementor;
+use WPEssential\Theme\WpessentialHeroThemes\Builders\Elementor\Utility\Elementor;
 
 final class BuildersInit
 {

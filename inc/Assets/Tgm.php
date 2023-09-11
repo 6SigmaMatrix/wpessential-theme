@@ -1,6 +1,6 @@
 <?php
 
-namespace WPEssential\Theme\WPEssentialTheme\Utility;
+namespace WPEssential\Theme\WpessentialHeroTheme\Assets;
 
 final class Tgm
 {
@@ -27,4 +27,3 @@ final class Tgm
 		];
 	}
 }
-
