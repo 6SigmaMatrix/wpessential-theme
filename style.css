@@ -2,12 +2,24 @@
 Theme Name: WPEssential Hero Theme
 Theme URI: https://wpessnetial.org/
 Author: WPEssential
-Author URI; https://wpessential.org/
+Author URI: https://wpessential.org/
 Description: WPEssential is a multi purpose WordPress theme structure to modifiy and use to build the themes with help of WPEssential plugin.
 Version: 1.0.0
 Requires at least: 5.5
 Requires PHP: 7.4
 Tags: one-column, two-columns, right-sidebar, left-sidebar, full-width. sticky-post, custom-background, custom-menu, editor-style, featured-images, translation-ready, custom-header, customizer, elementor, wpbakery,
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: wpessential-hero-theme
 Domain Path: /languages
 */
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.screen-reader-text,
+.gallery-caption,
+.bypostauthor,
+.alignright,
+.alignleft,
+.aligncenter {
+}
